@@ -4,6 +4,7 @@
 - [x] React.js
 - [x] GraphCMS
 - [x] GraphQL
+- [x] Apollo GraphQL
 - [x] TailwindCSS
 
 ## Criação
