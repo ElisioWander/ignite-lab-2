@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/client'
-import { Lesson } from '../Lesson'
+import { Lesson } from './Lesson'
 import { GET_LESSONS_QUERY } from './QueryLessons'
 
 type GetLessonsQueryResponse = {

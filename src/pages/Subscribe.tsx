@@ -1,3 +1,4 @@
+import { Form } from '../Components/Form/Form'
 import { Logo } from '../Components/Logo'
 
 export function Subscribe() {
@@ -25,25 +26,7 @@ export function Subscribe() {
             Inscreva-se gratuitamente
           </strong>
 
-          <form className="w-full flex flex-col gap-2">
-            <input
-              type="text"
-              placeholder="Seu nome completo"
-              className="h-14 px-5 rounded bg-gray-900"
-            />
-            <input
-              type="email"
-              placeholder="Digite seu email"
-              className="h-14 px-5 rounded bg-gray-900"
-            />
-
-            <button
-              type="submit"
-              className="mt-4 py-4 text-sm font-bold uppercase rounded bg-green-500 hover:bg-green-700 transition-colors "
-            >
-              Garantir minha vaga
-            </button>
-          </form>
+          <Form />
         </div>
       </div>
 

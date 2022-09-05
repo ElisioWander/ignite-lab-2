@@ -4,7 +4,7 @@ import {
   ImageSquare,
   Lightning,
 } from 'phosphor-react'
-import { Button } from '../Button'
+import { Button } from './Button'
 import { Card } from './Card'
 import { DefaultUi, Player, Youtube } from '@vime/react'
 import { useQuery } from '@apollo/client'

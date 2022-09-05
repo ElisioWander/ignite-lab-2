@@ -11,7 +11,7 @@ export function Card({ icon, title, content }: CardProps) {
   return (
     <a
       href=""
-      className="flex items-stretch gap-6 overflow-hidden bg-gray-700 rounded"
+      className="flex items-stretch gap-6 overflow-hidden bg-gray-700 rounded hover:scale-105 transition-all "
     >
       <div className="h-full p-6 flex items-center bg-green-700 ">{icon}</div>
       <div className="py-6 leading-relaxed">
